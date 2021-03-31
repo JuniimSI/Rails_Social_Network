@@ -7,4 +7,13 @@ Rails.application.routes.draw do
     root to: "home#index"
     resources :admins
   end
+
+  root to: "user/timeline#index"
+
+  namespace :user do
+    #user/posts - #admin/users
+    #root to: "timeline#index"
+    #resources :users
+  end
+
 end
