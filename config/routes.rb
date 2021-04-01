@@ -6,12 +6,15 @@ Rails.application.routes.draw do
     #admin/posts - #admin/users
     root to: "home#index"
     resources :admins
+    resources :posts, only: [:index, :show]
     resources :users, only: :index
   end
 
   root to: "user/timeline#index"
 
   namespace :user do
+    get 'profile', to: "profile#show"
+    resources :posts, only: :create
     #user/posts - #admin/users
     #root to: "timeline#index"
     #resources :users
