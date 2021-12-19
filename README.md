@@ -1,24 +1,11 @@
-# README
+## Description
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+App desenvolvido durante curso sobre ruby e ruby on rails. Uma rede social para postar coisas, visualizar, seguir pessoas, dentre outras features.
 
-Things you may want to cover:
+## Tecs
+- Ruby
+- RubyOnRails
 
-* Ruby version
+## Screenshots
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![image](https://user-images.githubusercontent.com/19415372/146679266-e4388091-978f-47e1-9d03-9982eeda0e3e.png)
